@@ -4,12 +4,13 @@ import { Provider } from 'react-redux';
 import { store } from './redux/store';
 import Todo from './src/components/Todo';
 import { ToastProvider } from 'react-native-toast-notifications'
+import Navigator from './routes/homeStack'
 
 export default function App() {
   LogBox.ignoreAllLogs(); return (
     <Provider store={store}>
       <ToastProvider>
-        <Todo />
+        <Navigator />
       </ToastProvider>
     </Provider>
   );
