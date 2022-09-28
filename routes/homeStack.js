@@ -8,7 +8,7 @@ const screen = {
     ReviewDetails: {
         screen: ReviewDetails
     },
-    Home: {
+    Todo: {
         screen: Todo
     },
 }
